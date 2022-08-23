@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fatherland | Media</title>
+    <meta name="description" content="skyrim fan page not official" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- //? Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,300&display=swap"
+    rel="stylesheet"
+
+    <!--//? Google Font Kapanıs -->
+    <!-- //? Font 2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Splash&family=Zilla+Slab:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ?  Font 2 Kapanış-->
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="headnav">
+        <ul>
+          <li class="skyrimword">Skyrim</li>
+        </ul>
+        <ul>
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="media.html">Galeri</a></li>
+          <li><a href="shouts.html">Nidalar</a></li>
+        </ul>
+      </nav>
+    </header>
+   <div class="full-img" id="fullImgBox">
+    <img src="/images/media/media1.jpg" id="fullImg">
+    <span onclick="closefullImg()">X</span>
+   </div>
+    <div class="img-gallery">
+      <img src="/images/media/media1.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media2.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media3.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media4.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media5.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media6.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media7.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media8.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media9.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media10.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media11.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media12.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media13.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media14.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media15.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media16.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media17.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media18.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media19.jpg" onclick="openfullImg(this.src)">
+      <img src="/images/media/media20.jpg" onclick="openfullImg(this.src)">
+    </div>
+
+    <script src="script.js"></script>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h3 class="coding-by">coding by cca</h3>
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://github.com/celalcan53" target="_blank">
+              <img src="/images/logos/github-logo.png" alt="github" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://discord.com/users/287518691359195136"
+              target="_blank"
+            >
+              <img src="/images/logos/discord-logo.png" alt="discord" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      document.querySelectorAll(".image-container img").forEach((image) => {
+        image.onclick = () => {
+          document.querySelector(".popup-image").style.display = "block";
+          document.querySelector(".popup-image img").src =
+            image.getAttribute("src");
+        };
+      });
+
+      document.querySelector(".popup-image span").onclick = () => {
+        document.querySelector(".popup-image").style.display = "none";
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,327 @@
+/* ! Genel css */
+
+* {
+  box-sizing: border-box;
+  font-family: "Zilla Slab", serif;
+  padding: 0;
+  margin: 0;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/backgroundimage.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  line-height: 1.4;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1, h2 {
+  font-weight: 300;
+  line-height: 2;
+  margin: 10px 0;
+}
+
+p{
+  margin: 10px 0;
+}
+
+img{
+  width: 100%;
+}
+
+/* ! Özelleştirilmiş css */
+
+.headnav {
+  font-size: 1.6rem;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  justify-content: center;
+  text-align: center;
+}
+
+.headnav ul {
+  margin: 0;
+}
+
+.headnav li {
+  display: inline;
+  padding: 0 5%;
+}
+
+.headnav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: black;
+  text-decoration: none;
+}
+
+.headnav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, 0.2);
+background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 0.2rem;
+}
+
+.skyrimword {
+  text-align: center;
+  font-size: 4em;
+  font-family: "Splash", cursive;
+  margin: auto;
+  font-weight: normal;
+  
+}
+
+.section1{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 0.2rem;
+}
+
+.skyrimhistoryh{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.skyrimhistoryp{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.main-footer{
+    background-color: #b0b8a8;
+    color: black;
+    padding: 0.25rem 0;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+    }
+    
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+  
+}
+
+.footer-nav li{
+  padding: 0 0.5em;
+  list-style-type: none;
+  padding: 0.5em;
+  display: inline-block;
+  
+  }
+
+  .footer-nav img{
+    width: 60px;
+    height: 60px;
+    margin: 2rem
+  }
+
+  .footer-nav li a:hover{
+    background-color: whitesmoke;
+    border-radius: 100%
+
+  }
+
+  .coding-by{
+    padding: 2rem;
+    margin: 0;
+  }
+
+  /* ! Shouts css */
+
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .card{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .card:hover{
+        background-color: whitesmoke;
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: all 1ms ease;
+        text-decoration: none;
+
+
+  }
+
+  .card-image{
+    background-color: brown;
+    text-align: center;
+    height: 200px;
+    margin: 15px;
+    border-radius: 15px 15px 0 0;
+    background-size: cover;
+  }
+
+  .card h3{
+    text-align: center;
+  }
+
+  .card p{
+    padding: 10px;
+  }
+
+  /* ! SHOUT IMGS */
+ 
+  .shout-1{
+    background-image: url(/images/shouts/shout-1.png);
+  }
+
+  .shout-2{
+    background-image: url(/images/shouts/shout-2.png);
+  }
+  .shout-3{
+    background-image: url(/images/shouts/shout-3.png);
+  }
+  .shout-4{
+    background-image: url(/images/shouts/shout-4.png);
+  }
+  .shout-5{
+    background-image: url(/images/shouts/shout-5.png);
+  }
+  .shout-6{
+    background-image: url(/images/shouts/shout-6.png);
+  }
+  .shout-7{
+    background-image: url(/images/shouts/shout-7.png);
+  }
+  .shout-8{
+    background-image: url(/images/shouts/shout-8.png);
+  }
+  .shout-9{
+    background-image: url(/images/shouts/shout-9.png);
+  }
+  .shout-10{
+    background-image: url(/images/shouts/shout-10.png);
+  }
+  .shout-11{
+    background-image: url(/images/shouts/shout-11.png);
+  }
+  .shout-12{
+    background-image: url(/images/shouts/shout-12.png);
+  }
+  .shout-13{
+    background-image: url(/images/shouts/shout-13.png);
+  }
+  .shout-14{
+    background-image: url(/images/shouts/shout-14.png);
+  }
+  .shout-15{
+    background-image: url(/images/shouts/shout-15.png);
+  }
+  .shout-16{
+    background-image: url(/images/shouts/shout-16.png);
+  }
+  .shout-17{
+    background-image: url(/images/shouts/shout-17.png);
+  }
+  .shout-18{
+    background-image: url(/images/shouts/shout-18.png);
+  }
+  .shout-19{
+    background-image: url(/images/shouts/shout-19.png);
+  }
+  .shout-20{
+    background-image: url(/images/shouts/shout-20.png);
+  }
+  .shout-21{
+    background-image: url(/images/shouts/shout-21.png);
+  }
+  .shout-22{
+    background-image: url(/images/shouts/shout-22.png);
+  }
+  .shout-23{
+    background-image: url(/images/shouts/shout-23.png);
+  }
+  .shout-24{
+    background-image: url(/images/shouts/shout-24.png);
+  }
+  .shout-25{
+    background-image: url(/images/shouts/shout-25.png);
+  }
+  .shout-26{
+    background-image: url(/images/shouts/shout-26.png);
+  }
+  .shout-27{
+    background-image: url(/images/shouts/shout-27.png);
+  }
+
+  /* ! MEDIA CSS */
+
+.img-gallery{
+  width: 80%;
+  margin: 100px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+.img-gallery img{
+  width: 100%;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 2px solid #b0b8a8;
+}
+
+.img-gallery img:hover{
+  transform: scale(0.8) rotate(-5deg);
+  border-radius: 20px;
+  box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+}
+  
+.full-img{
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.full-img img{
+  width: 90%;
+   max-width: 1000px;
+   border: black solid 5px;
+}
+
+.full-img span{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
